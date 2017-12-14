@@ -1,0 +1,31 @@
+header {
+    height: 50px;
+    background-color: springgreen;
+    color: blue;
+    text-decoration: none;
+}
+header ul{
+    list-style: none;
+}
+header td a{
+    font-size: 30px;
+    text-decoration: none;
+    padding: 5px 120px 5px 140px;
+}
+body section{
+    font-size: 15px;
+    color: green;
+    align-items: center;
+    padding: 11px 165px 41px 190px;
+}
+p.info{
+    align-content: center;
+    margin: 11px 165px 41px 190px;
+}
+p.cat{
+    margin: 11px 165px 41px 190px;
+
+}
+body {
+    background-attachment: local src:"Ima";
+}
