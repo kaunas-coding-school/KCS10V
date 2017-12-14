@@ -9,6 +9,7 @@
         <td><a href="about.html">Apie Mane</a></td>
         <td><a href="index.html">Portfolio</a></td>
         <td><a href="kontaktai.html">Kontaktai </a></td>
+        <td><a href="http://ka4ma.lt/">Namai </a></td>
     </table>
 </header>
 <section>
@@ -29,22 +30,45 @@
                     </tr>
                 </table>
             <div>
-                <p><img src="Image\world-map.gif" alt=""></p>
+                <<iframe class="mapas"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d146863.50161188096!2d23.786837564221578!3d54.889894034192324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e72270b167d343%3A0x614bd1e0c7378bbc!2sKaunas!5e0!3m2!1slt!2slt!4v1513272613948"
+                            width="600"
+                            height="450"
+                            frameborder="0"
+                            style="border:0"
+                            allowfullscreen></iframe>>
+                <iframe class="Jutubas"
+                        width="560" height="315" src="https://www.youtube.com/embed/ZeyHl1tQeaQ"
+                        frameborder="0"
+                        gesture="media"
+                        allow="encrypted-media"
+                        allowfullscreen></iframe>
             </div>
         </div>
         <div>
-            <form action="/action_page.php">
-                First name: <input type="text" name="fname"><br>
-                Last name: <input type="text" name="lname"><br>
-                <input type="submit" value="Submit">
+            <form action="/submit.php" method="post">
+                <input type="text " placeholder="Jusu Vardas" name="Vardas">
+                <input type="text " placeholder="Jusu Pavarde" name="Pavarde">
+                <input type="text " placeholder="Jusu El. Pastas" name="Pastas">
+                <textarea name="zinute" id="zinute" cols="30" rows="10" placeholder="Jusu zinute mums"></textarea>
+                <input type="submit" value="Patvirtinti">
+
             </form>
         </div>
+        <div class="social">
+           <div class="facebook"> </div>
+            <div class="twiter"></div>
+            <div class="youtube"></div>
+            <div class="instagram"></div>
+
+        </div>
         <div>
-            <p><img src="Image\arrowup.svg" alt="" height="100" width="100">To the top</p>
-            <p><img src="Image\fb_icon_325x325.png" alt="" height="100" width="100">Facebook</p>
-
-            <p><img src="Image\live-chat-invert.png" alt="" height="100" width="100">Live Chat</p>
-
+            <div class="group"></div>
+            <div class="livechat"> 
+            <span>Live Chat</span>
+                <img src="Image/live-chat-invert.png" alt="">
+            </div>
+            
         </div>
     </div>
     <footer>
