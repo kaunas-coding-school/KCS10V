@@ -3,62 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <title>Kontaktai</title>
-    <style>
-        input[type=text], select, textarea {
-            width: 100%;
-            padding: 12px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            box-sizing: border-box;
-            margin-top: 6px;
-            margin-bottom: 16px;
-            resize: vertical;
-        }
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/submit-form.css">
 
-        input[type=email], select, textarea {
-            width: 100%;
-            padding: 12px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            box-sizing: border-box;
-            margin-top: 6px;
-            margin-bottom: 16px;
-            resize: vertical;
-        }
-
-        input[type=submit] {
-            background-color: #4CAF50;
-            color: white;
-            padding: 12px 20px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-
-        input[type=submit]:hover {
-            background-color: #45a049;
-        }
-
-        .submitForm {
-            width: 40%;
-            border-radius: 5px;
-            background-color: #f2f2f2;
-            padding: 20px;
-        }
-    </style>
 </head>
 <body>
 <header>
-    Čia yra header:
-    <ul style="list-style-type:none">
-        <li><a href="index.html">APIE MANE</a></li>
-        <li><a href="portfolio.html">PORTFOLIO</a></li>
-        <li><a href="kontaktai.html">KONTAKTAI</a></li>
+    <ul>
+        <li class="button"><a href="index.html">APIE MANE</a></li>
+        <li class="button"><a href="portfolio.html">PORTFOLIO</a></li>
+        <li class="button"><a href="kontaktai.html">KONTAKTAI</a></li>
     </ul>
 </header>
 <hr>
 <section>
-<h1>Kontaktai</h1>
+    <h1>Kontaktai</h1>
+    <div>
+        <p>Vardas</p>
+        <p>Pavardė</p>
+        <p>El. paštas</p>
+        <p>Telefonas</p>
+    </div>
+    <div class="map">MAP GOES HERE</div>
+    <br>
     <div class="submitForm">
         <form action="/action_page.php"> <!--< Submit veikimo scriptas -->
 
