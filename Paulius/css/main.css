@@ -2,21 +2,33 @@ body {
     font-family: Arial;
 }
 header {
-    height: 30px;
-    backround-color: #989b98;
+    height: 90px;
+    backround-color: #a9a9a9;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 header ul {
     list-style: none;
 }
 header li {
     float: left;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-right: 2px solid black;
 }
 header li a {
-    color: #fff;
+    color: #ffce44;
     text-decoration: none;
     padding: 5px 3px;
 }
-header section h1 {
-    float:left;
+
+.konteineris {
+    width: 720px;
+    margin: auto;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    box-shadow: 0 10px 120px;
 }
