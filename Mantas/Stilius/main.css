@@ -1,0 +1,17 @@
+header{
+    height: 30px;
+    background-color: #f2f2f2;
+    color: white;
+}
+header ul {
+    list-style: none;
+}
+header li {
+    float: left;
+}
+
+header li a{
+    color: #fff;
+    text-decoration: none;
+    padding: ;
+}
