@@ -1,0 +1,50 @@
+body {
+    font-family: Arial;
+}
+
+header {
+    height: 70px;
+    background-color: #989b98;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul {
+    list-style: none;
+
+}
+
+header li {
+    float: left;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-right: 2px solid white;
+}
+
+header li a {
+    color: #fff;
+    text-decoration: none;
+    /* padding: 5px 3px 5px 3px;*/
+    padding: 5px 3px;
+}
+
+img {
+    float: left;
+}
+
+h1, h2 {
+    float: left;
+    padding: 5px 3px;
+}
+
+.konteineris {
+    width: 720px;
+    margin: 0 auto;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    box-shadow: 0 4px 20px 3px;
+}
+
