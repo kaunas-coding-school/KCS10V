@@ -1,0 +1,22 @@
+body {
+    font-family: Arial;
+}
+header {
+    height: 30px;
+    backround-color: #989b98;
+    color: white;
+}
+header ul {
+    list-style: none;
+}
+header li {
+    float: left;
+}
+header li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 3px;
+}
+header section h1 {
+    float:left;
+}
