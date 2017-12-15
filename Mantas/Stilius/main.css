@@ -1,29 +1,39 @@
 body {
     font-family: Arial;
     background-color: #fff;
+    margin-top: 70px;
+
 }
 
-header{
-    height: 60px;
+header {
+    height: 70px;
     background-color: #f2f2f2;
     color: white;
-    font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 20px;
+    position: fixed;
+    margin-top: -70px;
+    width: 100%;
+
 }
+
 header ul {
     list-style: none;
+
 }
+
 header li {
     float: left;
     height: 40px;
     display: flex;
     align-items: center;
     border-right: 2px solid white;
+    text-align: center;
 }
 
-header li a{
+header li a {
     color: #000;
     text-decoration: none;
     padding: 10px;
@@ -35,4 +45,18 @@ header li a{
     border-left: 1px solid grey;
     border-right: 1px solid grey;
     box-shadow: 0 5px 20px;
+    position: static;
+    text-align: center;
+
+}
+
+.block {
+    font-family: Bahnschrift;
+    text-align: center;
+
+}
+
+.port {
+
+
 }
