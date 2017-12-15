@@ -1,0 +1,48 @@
+header {
+    height: 70px;
+    background-color: #989b98;
+        color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header ul {
+    list-style: none;
+
+}
+header li {
+
+    float: left;
+    display: flex;
+    height: 20px;
+    align-items: center;
+    border-right: 2px solid white;
+    margin: 5px;
+}
+header li a {
+
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 3px;
+    font-size: 24px;
+    font-weight:bold;
+}
+
+section h1 {
+    font-size: 30px;
+    padding: 10px 10px;
+    color: #fff;
+}
+section h2{
+    font-size: 25px;
+    padding: 10px 10px;
+    color: darkslateblue;
+
+}
+.Konteineris{
+    width: 720px;
+    margin: 0 auto;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    box-shadow: 0 5px 20px;
+}
