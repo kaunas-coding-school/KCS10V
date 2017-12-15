@@ -2,11 +2,18 @@
 <html>
 <head>
     <title>Page Title</title>
+    <meta charset="UTF-8">
+    <style>
+        p {font-size: 20px}
+    </style>
 </head>
 <body>
-
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
-
+<h1>Šiandien yra:</h1>
+<p id="data"></p>
+<script>
+    document.getElementById("data").innerHTML = Date();
+</script>
+<hr>
+<p>Tikėjais kažko daugiau?</p>
 </body>
 </html>

@@ -1,59 +1,114 @@
 body {
-    background-color: #cfd2cf;
-    font-family: Verdana;
+    background-color: #c0c3c0;
+    font-family: Nunito;
 }
 
-a:link {
+a:link, a:visited {
     text-decoration: none;
     color: #373737;
 }
 
-a:visited {
-    text-decoration: none;
-    color: #373737;
-}
-
-a:hover {
+a:hover, a:active {
     text-decoration: underline;
     color: #555555;
 }
 
-a:active {
-    text-decoration: underline;
-    color: #555555;
+header {
+    height: 60px;
 }
 
 header ul {
     list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+    margin-top: 10px;
+    margin-left: 15%;
 }
 
-/*Still needs a lot of work*/
+header li {
+    margin-right: 3px;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+}
+
 .button {
-    padding: 20px 40px;
+    padding: 20px 40px 40px 40px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #7c7a82;
+    display: inline;
+    border-radius: 10px 10px 0 0;
+}
+
+.buttonActive {
+    padding: 20px 40px 40px 40px;
     font-size: 24px;
     text-align: center;
     cursor: pointer;
     outline: none;
-    color: #fff;
-    background-color: #7c7a82;
-    border: none;
-    border-radius: 5px 5px 0px 0px;
+    background-color: #dee1de;
     display: inline;
-}
-
-.button a {
-    color: black;
-    text-decoration: none;
+    border-top: 1px solid #7c7a82;
+    border-right: 1px solid #7c7a82;
+    border-left: 1px solid #7c7a82;
+    border-radius: 10px 10px 0 0;
 }
 
 .button:hover {
     background-color: #989b98;
 }
 
-.button:active {
-    background-color: #cfd2cf;
+.button a, .buttonActive a {
+    color: black;
+    text-decoration: none;
 }
 
+section {
+    margin-left: 15%;
+    margin-right: 15%;
+    border: 1px solid #7c7a82;
+    border-radius: 0 10px 10px 10px;
+    background: #dee1de;
+}
 
+.textBox {
+    margin: 15px;
+}
 
+div {
+    font-size: 16px;
+}
 
+h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+hr {
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #7c7a82;
+}
+
+footer {
+    margin: 3px 15% 10px;
+    border: 1px solid #7c7a82;
+    border-radius: 10px;
+    background: #dee1de;
+    height:auto;
+    padding: 8px 15px;
+}
+
+footer span {
+    font-size: 16px;
+}
