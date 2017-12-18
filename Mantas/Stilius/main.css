@@ -39,24 +39,5 @@ header li a {
     padding: 10px;
 }
 
-.konteineris {
-    width: 940px;
-    margin: 0 auto;
-    border-left: 1px solid grey;
-    border-right: 1px solid grey;
-    box-shadow: 0 5px 20px;
-    position: static;
-    text-align: center;
-
-}
-
-.block {
-    font-family: Bahnschrift;
-    text-align: center;
-
-}
-
-.port {
 
 
-}
