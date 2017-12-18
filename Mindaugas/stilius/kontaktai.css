@@ -42,38 +42,6 @@ header li a {
     border-right: 1px green solid;
     box-shadow: 0 5px 20px;
     background-image: url("../img/fonas.jpg");
-
-}
-.darbofoto{
-    border: 2px solid black;
-}
-.foto {
-    align-self: start;
-    margin: 20px;
-}
-
-h1 {
-    position: relative;
-    top: -230px;
-    left: 375px;
-}
-
-h2 {
-    position: relative;
-    top: -220px;
-    left: 375px;
-}
-
-h3 {
-    position: relative;
-    margin-left: 20px;
-}
-
-p {
-    margin-top: -170px;
-    padding: 20px;
-    text-indent: 220px;
-    text-align: justify;
 }
 
 footer {
@@ -84,9 +52,4 @@ footer {
     justify-content: center;
     align-items: center;
     display: flex;
-}
-
-.porfolioView{
-    display: list-item;
-    margin: 10px;
 }
