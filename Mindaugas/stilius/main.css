@@ -44,9 +44,11 @@ header li a {
     background-image: url("../img/fonas.jpg");
 
 }
-.darbofoto{
+
+.darbofoto {
     border: 2px solid black;
 }
+
 .foto {
     align-self: start;
     margin: 20px;
@@ -74,6 +76,8 @@ p {
     padding: 20px;
     text-indent: 220px;
     text-align: justify;
+    display: flex;
+    float: left;
 }
 
 footer {
@@ -86,7 +90,30 @@ footer {
     display: flex;
 }
 
-.porfolioView{
+.porfolioView {
     display: list-item;
     margin: 10px;
+}
+
+/*animacija*/
+@keyframes boom {
+    0% {
+        width: 200px;
+        height: 200px;
+    }
+    10% {
+        width: 150px;
+        height: 150px;
+    }
+    100% {
+        width: 200px;
+        height: 200px;
+    }
+
+}
+
+.foto:hover {
+    animation: boom;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
