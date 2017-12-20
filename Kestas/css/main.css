@@ -1,0 +1,29 @@
+body {
+    font-family: Arial;
+}
+
+header {
+    height: 70px;
+    background-color: #989b98;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul {
+    list-style: none;
+}
+header li {
+    float: left;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    border-right: 2px solid white;
+}
+header li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0px 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
