@@ -1,0 +1,25 @@
+#tab1 {
+    display: none;
+}
+
+#tab2 {
+    display: none;
+}
+
+#tab3 {
+    display: none;
+}
+
+.tabai ul {
+    display: block;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+.tabai .active_link {
+    color: red !important;
+}
+
+.sheet .active_sheet {
+    background-color: #4CAF50;
+}
