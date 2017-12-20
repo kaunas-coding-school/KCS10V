@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="/shared/css/reset.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="../shared/css/apiemane.css">
+    <link rel="stylesheet" href="css/tabs.css">
 </head>
 <body>
 
@@ -38,9 +39,42 @@
         </div>
         <div class="darbai">
             <h2>Paskutiniai darbai</h2>
-            <img class="foto" src="img/portfolio/darbas1.png" alt="" width="200" height="300">
-            <img class="foto" src="img/portfolio/darbas1.png" alt="" width="200">
-            <img class="foto" src="img/portfolio/darbas1.png" alt="" width="200">
+
+
+            <div class="tabs">
+                <div class="tab_header">
+                    <ul>
+                        <li><a href="#sheet1" onclick="keistiTab(this)">C#</a></li>
+                        <li><a href="#sheet2" onclick="keistiTab(this)">JAVA</a></li>
+                        <li><a href="#sheet3" onclick="keistiTab(this)">WEB</a></li>
+                    </ul>
+                </div>
+                <div class="sheets">
+                    <div class="sheet" id="sheet1">
+                        C# darbai
+                        <hr>
+                        <img class="foto" src="img/portfolio/darbas1.png" alt="" width="200">
+                        <img class="foto" src="img/portfolio/darbas1.png" alt="" width="200">
+                        <img class="foto" src="img/portfolio/darbas1.png" alt="" width="200">
+                    </div>
+                    <div class="sheet" id="sheet2">
+                        JAVA darbai
+                        <hr>
+                        <img class="foto" src="img/portfolio/darbas1.png" alt="" width="200">
+                        <img class="foto" src="img/portfolio/darbas1.png" alt="" width="200">
+                        <img class="foto" src="img/portfolio/darbas1.png" alt="" width="200">
+                    </div>
+                    <div class="sheet" id="sheet3">
+                        Web darbai
+                        <hr>
+                        <img class="foto" src="img/portfolio/darbas1.png" alt="" width="200">
+                        <img class="foto" src="img/portfolio/darbas1.png" alt="" width="200">
+                        <img class="foto" src="img/portfolio/darbas1.png" alt="" width="200">
+                    </div>
+                </div>
+            </div>
+
+
         </div>
     </div>
 </section>
@@ -49,6 +83,9 @@
     <span>teisės</span>
     <span> saugomos 2017</span>
 </footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/testas.js"></script>
+<script src="js/tabs.js"></script>
 
 </body>
 </html>
