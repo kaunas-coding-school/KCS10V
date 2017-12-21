@@ -1,50 +1,50 @@
 body {
     font-family: Arial;
+    background-image: url("http://www.psdgraphics.com/wp-content/uploads/2016/08/paws-pattern.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 header {
     height: 70px;
-    background-color: #989b98;
+   background-color: #989b98;
+    animation-name:dd;
+    animation-duration: 5s;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
+@keyframes dd{
+    from{background-color: blue;}
+        to {background-color :blueviolet;}
+}
 header ul {
     list-style: none;
-
 }
 
 header li {
     float: left;
-    height: 40px;
     display: flex;
+    height: 40px;
     align-items: center;
     border-right: 2px solid white;
 }
-
+header li:last-child{
+    border:none;
+}
 header li a {
     color: #fff;
     text-decoration: none;
-    /* padding: 5px 3px 5px 3px;*/
-    padding: 5px 3px;
+    padding: 0px 10px;
+    font-size: 24px;
+    font-weight: bold;
 }
+.darbai li {
 
-img {
-    float: left;
+    display: inline-flex;
+
 }
-
-h1, h2 {
-    float: left;
-    padding: 5px 3px;
+footer{
+    text-align: center;
 }
-
-.konteineris {
-    width: 720px;
-    margin: 0 auto;
-    border-left: 1px solid gray;
-    border-right: 1px solid gray;
-    box-shadow: 0 4px 20px 3px;
-}
-
