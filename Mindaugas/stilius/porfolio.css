@@ -29,3 +29,14 @@
     justify-content: center;
     align-items: left;
 }
+
+/*sniego elementai*/
+* {margin: 0; padding: 0;}
+
+body {
+    /*You can use any kind of background here.*/
+    background: lightblue;
+}
+canvas {
+    display: block;
+}
