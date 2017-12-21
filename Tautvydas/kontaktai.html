@@ -34,14 +34,14 @@
     <iframe class="youtube" width="560" height="315" src="https://www.youtube.com/embed/-1qffhpaXIA?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 
     <div class="forma">
-        <form action="/submit.php" method="post">
-            <input type="text" placeholder="Jūsų vardas" name="vardas"/>
-            <input type="text" placeholder="Jūsų pavardė" name="pavarde"/>
-            <input type="email" placeholder="Jūsų el-paštas" name="pastas"/>
-            <textarea name="zinute" id="zinute" cols="30" rows="10" placeholder="Jūsų žinutė mums..."></textarea>
-            <input type="submit" value="Patvirtinti"/>
-        </form>
+        <input type="text" placeholder="Jūsų vardas" name="FirstName"/>
+        <input type="text" placeholder="Jūsų pavarde" name="LastName"/>
+        <input type="text" placeholder="Adresas" name="Address"/>
+        <input type="text" placeholder="Miestas" name="City"/>
+        <input type="submit" value="Patvirtinti" class="submitBtn"/>
     </div>
+
+    <div class="result">Cia bus duomenys</div>
 
     <div class="social">
         <div class="facebook"></div>
@@ -68,6 +68,7 @@
     <span>teisės</span>
     <span> saugomos 2017</span>
 </footer>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/testas.js"></script>
 </body>
 </html>
