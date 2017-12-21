@@ -23,3 +23,9 @@
 .sheet .active_sheet {
     background-color: #4CAF50;
 }
+
+.tabai{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+}

@@ -10,6 +10,7 @@
     <meta charset="UTF-8"/>
     <link rel="stylesheet" href="/shared/css/reset.css">
     <link rel="stylesheet" href="stilius/kontaktai.css">
+
 </head>
 <body>
 
@@ -25,7 +26,7 @@
 
 <!--Vidine dalis - sekcija-->
 <section>
-    <div class = konteineris>
+    <div class=konteineris>
 
         <div>
             <!--CONTACTS-->
@@ -51,19 +52,20 @@
 
         <div class="forma">
             <h3> Bendraukime: </h3>
-            <form action="submit.php" method="post">
-                <input type="text" placeholder="Jusu vardas" name="vardas">
-                <input type="text" placeholder="Jusu pavarde" name="pavarde">
-                <input type="email" placeholder="Jusu emailas" name="pastas">
-                <textarea name="zinute" id="zinute" cols="38" rows="10" placeholder="Jusu zinite cia"></textarea>
-                <input type="submit" value="patvirtinti"/>
+            <!--<form action="connect.php" method="post">-->
+            <input type="text" placeholder="Jusu vardas" name="vardas">
+            <input type="text" placeholder="Jusu pavarde" name="pavarde">
+            <input type="text" placeholder="Jusu emailas" name="pastas">
+            <input type="text" placeholder="Jusu Zinute" name="zinute">
+            <input type="submit" value="patvirtinti" class="submit8tn"/>
+            <div class="Aatsakymas"></div>
 
-            </form>
+
         </div>
+
 
         <div class="chat">
             <!--CHAT-->
-
 
 
             <img src="img/contacts/liveChat.JPG" alt="Chatas" width="200">
@@ -91,7 +93,8 @@
 <footer>
     <span> &copy; Visos <b> teises </b> saugomos <i>2017.</i></span>
 </footer>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="JavaScript/testas.js"></script>
 </body>
 </html>
 
