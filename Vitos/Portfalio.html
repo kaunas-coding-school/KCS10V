@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pavadinimas</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/tabs.css">
+    <link rel="stylesheet" href="css/snaiges.css">
+    <script src="snaiges.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<canvas id="canvas"></canvas>
+<header>
+    <ul>
+        <li><a href="index.html">Apie</a></li>
+        <li><a href="Portfalio.html">Portfalio</a></li>
+        <li><a href="Kontaktai.html">Kontaktai</a></li>
+    </ul>
+</header>
+<section>
+    <div class="tabs">
+        <div class="tab_header">
+            <ul>
+                <li><a href="#sheet1" onclick="keistiTab(this)">C#</a></li>
+                <li><a href="#sheet2" onclick="keistiTab(this)">Java</a></li>
+                <li><a href="#sheet3" onclick="keistiTab(this)">HTML</a></li>
+            </ul>
+            <div class="sheets">
+                <div class="sheet" id="sheet1">
+                    <p> Microsof kompanija programų kūrimo palengvinimui (DRY KISS principams) yra sukūrusi .NET platformą, kurioje galima programuoti įv kalbomis, bet pagrindinė yra C# (tariama "sy šarp"), sukurta ~2000 m. Joje yra daug dalykų perimta iš ankstesnių populiarių kalbų C/C++/Java, bet pridėta daugiau galimybių bei patogumų.  Mes su ja susipažinsime tik pradmenų lygyje bei sukursime kelias konsolines (tekstinio lango) programėles bei vieną grafinę.</p>
+                </div>
+                <div class="sheet" id="sheet2">
+                    <p>Java programavimo kalba parašytas kodas kompiliavimo metu verčiamas į baitkodą, kuris vykdomas JVM (Java virtualios mašinos) aplinkoje. JVM galima paleisti visose pagrindinėse OS, tad parašytą programą galima naudoti nepriklausomai nuo to, kokia operacinė sistema tame įrenginyje įdiegta. JVM taip pat turi automatinį atminties valdymo mechanizmą, todėl programauotojui nebereikia rankiniu būdu atlaisvinti atmintį. JVM esantis įrankis (garbagecollector) pats nustato, jog struktūra nebenaudojama ir jos užimama atmintis gali būti panaudota kažkam kitam, todėl ją atlaisvina. Įvairios Java programos dalys nesunkiai gali būti vykdomos lygiagrečiai (multithreading). Java taip pat turi gerai išvystytą refleksijos sistemą, taigi nėra būtina apibrėžti objekto tipą prieš programos vykdymą.</p>
+                </div>
+                <div class="sheet" id="sheet3">
+                    <p> HTML (Hyper Text Markup Language) yra puslapio struktūrizavimo kalba. Su ja galime susidėlioti kokie elementai bus mūsų puslapyje, koks elementas bus kokiame. Tarkim, kad kontaktinėje formoje bus ne tik vartotojo vardas ir pavardė, bet dar ir telefono numeris ir laukelis komentarui.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/testas.js"></script>
+
+</body>
+</html>
