@@ -5,29 +5,30 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/shared/css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/apiemane.css">
+
 </head>
 <body>
 <header>
     <ul>
         <li><a href="index.html">Apie</a></li>
         <li><a href="Portfalio.html">Portfalio</a></li>
+        <li><a href="piramide.html">piramide</a></li>
         <li><a href="Kontaktai.html">Kontaktai</a></li>
     </ul>
 </header>
 <section>
     <div class="konteineris">
-        <div>
-            <img src="img/profilis.jpg" width="100"/>
+        <div class="profilis">
+            <img class="foto" src="img/profilis.jpg" width="100"/>
             <h1>Vita</h1>
-            <h2>Programuotojas</h2>
-
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque efficitur id eros in consectetur.
+            <h2>Programuotoja</h2>
+            <hr>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque efficitur id eros in consectetur.
                 Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec
                 egestas pharetra nibh et sodales. Ut risus metus, rhoncus quis nulla ut, vulputate accumsan leo. Nunc
                 finibus massa quis felis luctus molestie. Mauris eleifend nec tortor quis porta. Sed tempus maximus
                 tortor, non posuere massa semper in. Nulla et ante porttitor, efficitur augue quis, ultrices ex.
-            </p>
-            <p>
                 Sėkmingas vakaras tęsiasi – Danijoje vykstančiame Europos plaukimo trumpajame 25 m baseine Rūta
                 Meilutytė
                 iškovojo 50 m krūtine distancijos plaukimo aukso medalį ir pasiekė geriausią rezultatą šį sezoną
@@ -38,22 +39,24 @@
                 https://www.delfi.lt/sportas/kitos-sporto-sakos/rutai-meilutytei-europos-cempionato-danijoje-auksas.d?id=76637583
             </p>
         </div>
-        <div>
+        <hr>
+        <div class="darbai">
             <h2>Paskutiniai darbai</h2>
             <ul>
-                <li><img
-                        src="data:image/jpeg;base64,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"/>
+                <li><img class="foto" src="img/portfolio/darbas1.JPG" height="200" width="180" >
                 </li>
-                <li><img
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnuz-RQzUwE3vYAH08w4bttBgMxrKNrzdmBbfqL4oVQMkF5qhshw"/>
+                <li><img class="foto"
+                        src="img/portfolio/darbas2.JPG" height="200" width="180" />
                 </li>
-                <li><img
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7bVfZ-Q01S7_5gviOMqSFcnD9_5M3F7SL8ITMwh2hq4R3t0cB"/>
+                <li><img class="foto"
+                        src="img/portfolio/darbas3.JPG" height="200" width="180"/>
                 </li>
             </ul>
         </div>
     </div>
 </section>
 <footer><span>&copy; Visos <b>teises</b> <i>saugomos</i> 2017</span></footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/testas.js"></script>
 </body>
 </html>
