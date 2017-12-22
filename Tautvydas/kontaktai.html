@@ -3,9 +3,12 @@
 <head>
     <title>Apie mane</title>
     <meta charset="UTF-8"/>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/79c72aa91e.css">
     <link rel="stylesheet" href="/shared/css/reset.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/apiemane.css">
+    <link rel="stylesheet" href="css/kontaktai.css">
 </head>
 <body>
 
@@ -28,23 +31,21 @@
 
         <div class="zemelapis">
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2292.0899761901364!2d23.890963995586702!3d54.93643965859223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1slt!2slt!4v1513272881841"
-                    width="600"
-                    height="450"
                     frameborder="0"
                     style="border:0"
                     allowfullscreen></iframe>
         </div>
 
-        <iframe class="youtube" width="560" height="315"
+        <iframe class="youtube"
                 src="https://www.youtube.com/embed/-1qffhpaXIA?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0"
                 gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 
         <div class="forma">
-            <input type="text" placeholder="Jūsų vardas" name="FirstName"/>
-            <input type="text" placeholder="Jūsų pavarde" name="LastName"/>
-            <input type="text" placeholder="Adresas" name="Address"/>
-            <input type="text" placeholder="Miestas" name="City"/>
-            <input type="submit" value="Patvirtinti" class="submitBtn"/>
+            <input type="text" placeholder="Jūsų vardas" name="FirstName" class="form-control"/> <br>
+            <input type="text" placeholder="Jūsų pavarde" name="LastName" class="form-control"/> <br>
+            <input type="text" placeholder="Adresas" name="Address" class="form-control"/> <br>
+            <input type="text" placeholder="Miestas" name="City" class="form-control"/> <br> <br>
+            <input type="submit" value="Patvirtinti" class="submitBtn btn btn-info"/>
         </div>
 
         <div class="result">Cia bus duomenys</div>

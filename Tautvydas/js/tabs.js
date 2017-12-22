@@ -14,3 +14,6 @@ var keistiTab = function(elementas) {
 
     $(sheetId).show().addClass('active_sheet');
 };
+
+var activeElement = $('[href="#sheet'+activeTab+'"]');
+keistiTab(activeElement)

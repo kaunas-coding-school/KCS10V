@@ -1,0 +1,15 @@
+.zemelapis iframe {
+    width: 100%;
+    height: 100%;
+}
+.zemelapis, .youtube{
+    width: 100%;
+    height: 200px;
+}
+.adressas {
+    margin: 10px;
+}
+
+.forma {
+    margin:  20px 0;
+}

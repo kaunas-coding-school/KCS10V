@@ -5,7 +5,6 @@
     color: red !important;
 }
 .tabs .active_sheet {
-    background-color: #4CAF50;
 }
 .tabs .tab_header ul {
     list-style: none;
