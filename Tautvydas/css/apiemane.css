@@ -1,4 +1,5 @@
 .konteineris {
+    opacity: 0;
     width: 720px;
     margin: 0 auto;
     border-left: 1px solid gray;
