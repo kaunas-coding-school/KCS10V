@@ -1,3 +1,6 @@
+html {
+    height: 100%;
+}
 body {
     font-family: Arial;
 }
@@ -39,4 +42,61 @@ h1 {
     float: right;
     align-items: left;
     margin-left: 15px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+}
+.konteineris {
+    width: 720px;
+    margin: 0 auto;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    box-shadow: 0 5px 20px;
+    padding: 10px;
+}
+
+img.foto {
+    border: 1px solid black;
+    margin: 0 20px 9px 0;
+    padding: 5px;
+}
+
+.profilis {
+    overflow: auto;
+}
+
+.profilis .foto {
+    float: left;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+    color: lightgray;
+    margin: 10px 0;
+}
+
+@keyframes boom {
+    0% {
+        width: 160px;
+        height: 160px;
+    }
+    50% {
+        width: 180px;
+        height: 180px;
+    }
+    100% {
+        width: 160px;
+        height: 160px;
+    }
+
+}
+
+.profilis .foto:hover {
+    animation-name: boom;
+    animation-duration: 0.3s;
 }
